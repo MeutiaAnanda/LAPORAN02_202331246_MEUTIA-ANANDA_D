@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORAN TEORI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #000000;
+            background-color: #f4f8fb;
+            margin: 20px;
+            transition: all 0.5s;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4c0808;
+        }
+        h3 {
+            cursor: pointer;
+            color: #000000;
+            margin-top: 20px;
+        }
+        .content {
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #d3dce6;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            display: none; 
+        }
+        
+        .messy-mode {
+            font-family: Comic;
+            color: #ab6678;
+            background-color: #ffe4e1;
+        }
+        .messy-mode h1, .messy-mode h2 {
+            color: #af4f5e;
+            text-align: left;
+        }
+        .messy-mode h3 {
+            color: #b1607a;
+        }
+        .messy-mode .content {
+            padding: 5px;
+            border: 2px dotted #b75770;
+            background-color: #FFE4E1;
+        }
+       
+        .toggle-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #9f0f0f;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .toggle-button:hover {
+            background-color: #6d0f0f;
+        }
+    </style>
+</head>
+<body>
+    <h1>LAPORAN TEORI</h1>
+    <h2> Meutia Ananda | 202331246 </h2>
+
+    <div>
+        <h3 onclick="toggleContent(this)">1. Mengapa menggunakan CSS dan JavaScript dalam pemrograman web?</h3>
+        <div class="content">
+            <p>CSS diperkenalkan pada tahun 1996 yang digunakan sebagai sebuah cara untuk dapat mengendalikan interface atau tampilan dan gaya dari sebuah web. Dengan kata lain, CSS digunakan dalam melakukan formating pada web sehingga meghasilkan web yang lebih responsif, interaktif dan mempunyai berbagai fitur animasi dan lainnya sehingga memudahkan dalam pengembangan web yang lebih modren dan terbaru dengan berbagai bentuk dan pengembangan yang unik</p>
+            <p>Sedangkan untuk JavaScipt pada awalnya diciptakan oleh Brendan Eich pada tahun 1995. Sebelum dikenal sebagai JavaScript, nama awalnya adalah LiveScript dengan alasan penggunaan efisien pupularitas bahasa pemorgraman java. Alasan mengapa JavaScript digunakan pada pemograman sebuah web adalah untuk menciptakan sebuah web yang lebih interaktif dengan dilengkapi fitur pendukung seperti efek animasi, validasi formulir, menciptakan konten yang dinamis dan berbagai fitur pendukung lainnya </p>
+        </div>
+    </div>
+    
+    <div>
+        <h3 onclick="toggleContent(this)">2. Bagaimana CSS dan JavaScript dapat diintegrasikan dalam pemrograman web?</h3>
+        <div class="content">
+            <p>2	Bagaimana CSS dan JavaSkript dapat diintegrasikan dalam pemograman web?
+                CSS dapat diintegrasikan kedalam sebuah pemograman web dengan cara memasukkan CSS yang telah terintegrasi dengan DOM kedalam halaman yang berisikan HTML.
+                JavaScript dapat diintegrasikan kedalam pemograman sebuah web melalui dua cara, yaitu:
+                <ol>
+                    <li>Menambahkan tag JavaScript kedalam sebuah halaman dengan tag<code>&lt;script&gt;</code>Secara langsung.</li>
+                    <li>Menggunakan file JavaScript eksternal dengan tujuan untuk dapat digunakan secara berulang kali serta memudahkan dalam melakukan analisa pemecahan masalah pada pemograman. JavaScript eksternal dapat ditambahkan melalui atribut seperti: <code>&lt;script type+”text/javascript”Src=”ekternalfile.js”&gt;</code><code>&lt;script&gt;</code></li></p>
+                </ol>
+        </div>
+    </div>
+    
+    <div>
+        <h3 onclick="toggleContent(this)">3. Jelaskan apa saja keuntungan menggunakan JavaScript dan CSS?</h3>
+        <div class="content">
+            <p>Keuntungan penggunaan CSS dalam sebuah pemograman web dapat dilihat dengan cara saat ingin mengubah sebuah objek atau element pada sebuah pemograman web biasanya harus dilakukan satu persatu dan berulang kali sehingga akan menghabiskan banyak waktu dan melelahkan. Namun saat CSS diterapkan, kita hanya perlu menambahkan sebuah gaya tunggal pada sebuah element atau beberapa element sekaligus, hal itu juga berlaku untuk melakukan setting pada layout, tampilan dan bentuk dari sebuah halaman web.
+                JavaScript memiliki keuntungan dimana pemogram dapat menciptakan sebuah tampilan web yang interaktif dan kreatif berdasarkan preferensi mereka serta dapat menambahkan berbagai fitur lainnya yang dapat diakses oleh pengguna lainnya, selain itu JavaScript juga memungkinkan klien untuk dapat menghemat waktu dari masalah penghubungan jaringan server yang relatif lama </p>
+        </div>
+    </div>
+    
+    <div>
+        <h3 onclick="toggleContent(this)">4. Jelaskan apa saja keuntungan menggunakan Bootstrap?</h3>
+        <div class="content">
+            <p>Bootstrap digunakan sebagai antar muka pada pengembangan web untuk mempercepat dan memudahkan dalam pengembangan sebuah web. Selain itu bootstrap digunakan untuk menciptakan tampilan web yang lebih rapi dan terstruktur serta responsif sehingga dapat digunakan secara nyaman oleh pengguna </p>
+        </div>
+    </div>
+    
+    <div>
+        <h3 onclick="toggleContent(this)">5. Berikan salah satu contoh penggunaan Bootstrap lalu jelaskan apa fungsinya serta berikan screenshot hasil running di web-nya!</h3>
+        <div class="content">
+            <p><code>&lt;link rel="stylesheet" href="css/bootstrap.css"&gt;</code></p>
+            <p>Ini adalah link ke file CSS Bootstrap eksternal. Dengan menggunakannya, kita dapat memanfaatkan berbagai gaya dan komponen yang Bootstrap sediakan untuk tata letak dan desain yang responsif tanpa perlu menulis CSS khusus.</p>
+            <ol>
+                <li>container: Mengatur margin otomatis dan membuat lebar elemen responsif, sehingga tampilan lebih teratur di berbagai ukuran layar.p-5 dan my-5: Menambahkan jarak padding dalam dan margin vertikal untuk membuat elemen tidak saling menempel.</li>
+                <li>bg-primary dan text-white: Memberikan latar belakang biru dan teks putih, menciptakan kontras yang menarik dan mudah dibaca.</li>
+                <li>col-12, col-md-8, col-lg-7: Mengatur lebar kolom berdasarkan ukuran layar, membuat tata letak responsif.</li>
+                <li>btn dan btn-primary: Membuat tombol dengan gaya konsisten dan warna utama Bootstrap.</li>
+                <li>form-floating: Menampilkan label input form di atas saat aktif, membuat form lebih modern.</li>
+            </ol>
+            <p>Bootstrap membantu membuat halaman lebih responsif, terstruktur, dan menarik tanpa perlu banyak kode CSS tambahan.</p>
+            <p> <img src="Tangkapan Layar 2024-11-10 pukul 17.35.18.png" alt="sourcecode" width="500"> <img src="Tangkapan Layar 2024-11-10 pukul 17.32.05.png" alt="Outputweb" width="500"></p>
+        </div>
+    </div>
+
+    <button class="toggle-button" onclick="toggleMode()">Ganti Mode Tampilan</button>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("messy-mode");
+        }
+
+        function toggleContent(element) {
+            let content = element.nextElementSibling;
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                if (confirm("Apakah Anda yakin ingin menyembunyikan konten ini?")) {
+                    content.style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
